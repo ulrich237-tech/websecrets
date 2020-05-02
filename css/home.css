@@ -1,0 +1,51 @@
+.titre{
+  height: 480px;
+  width: 100%;
+}
+.sous-titre{
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 5%;
+	height: 200px;
+	text-align: center;
+	width: 250px;
+	color: white;
+	font-size: 30px;
+	border-radius: 10px 10px 10px 10px;
+}
+.btn-cercle{
+	opacity: 0.5;
+	color: white;
+	border: 0px;
+	background-color: transparent;
+}
+.btn-cercle:hover{
+	opacity: 1;
+}
+.cercle{
+	-webkit-animation: circular 5s infinite alternate;
+	animation: circular 5s infinite alternate;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+
+@-webkit-keyframes circular{
+	0%{
+		border-radius: 10px 10px 10px 10px;
+	}
+	100%{
+		border-radius: 100% 100% 100% 100%;
+	}
+} 
+@keyframes circular{
+	0%{
+		border-radius: 10px 10px 10px 10px;
+	}
+	100%{
+		border-radius: 100% 100% 100% 100%;
+	}
+
+}
+

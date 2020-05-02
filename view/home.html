@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WebSecrets</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
+    <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+    <style media="screen">
+      body{
+        font-family: 'calibri light';
+      }
+      .dropdown-toggle{
+        background-color: transparent;
+        border: 0px;
+      }
+      input{
+        margin-bottom: 2%;
+      }
+    </style>
+
+  </head>
+  <body class="">
+
+    <div class="titre visible-xs visible-sm" style="background-color:" id="debut">
+      <header >
+        <h2>WebSecrets</h2>
+        <div class="btn-group pull-right visible-xs visible-sm">
+          <button class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-list fa-2x"></span></button>
+
+          <ul class="dropdown-menu">
+            <li><a href="#html">Apprendre le HTML</a></li>
+            <li><a href="#css">Apprendre le CSS</a></li>
+            <li><a href="#perfection">Se perfectionner</a></li>
+            <li><a href="#webmaster">Devenir webmaster</a></li>
+          </ul>
+        </div>
+        
+      </header>
+
+      <section class="sous-titre" style="color: black; background-color: #FFFF99;"> 
+        Ne me regardez pas ! Commencez <a href="#html"><span class="fa fa-arrow-down fa-1x"></span></a>
+      </section>
+    </div>
+
+    <div class="titre visible-xs visible-sm" style="background-color: #3300FF;" id="html">
+      <section class="sous-titre cercle" style="background-color: #3333FF;">Apprendre le HTML</section>
+    </div>
+
+    <div class="titre visible-xs visible-sm" style="background-color: #009900;" id="css">
+      <section class="sous-titre cercle" style="background-color: #00CC00;">Apprendre le CSS</section>
+    </div>
+
+    <div class="titre visible-xs visible-sm" style="background-color: #CC0000" id="perfection">
+        <section class="sous-titre cercle" style="background-color: #FF0000">Se perfectionner</section>
+    </div>
+
+    <div class="titre visible-xs visible-sm" style="background-color: #FF9900;" id="webmaster">
+      <section class="sous-titre cercle" style="color: white; background-color: #FFCC00;">En route pour devenir Webmaster</section>
+    </div>
+
+    <footer>
+      <section class="container">
+        <h4 style="text-align: center;">Communauté YouConnect</h4>
+        <div>
+          <a href="" class="btn">Qui sommes nous</a>
+          <a href="#formulaire" class="btn">Devenir membre</a>
+        </div>
+          
+        <div id="formulaire">
+          <form method="post">
+            <fieldset>
+              <legend>Rejoignez nous</legend>
+              <input type="text" name="nom" class="form-control" placeholder="Nom" required="">
+              <input type="email" name="mail" class="form-control" placeholder="Email" required="">
+              <input type="tel" name="tel" placeholder="Téléphone" class="form-control" required="">
+
+              <input type="submit" name="submit" value="Soumettre" class="btn btn-primary">
+            </fieldset>
+            <a href="#debut" class="btn-cercle pull-right"><span class="fa fa-arrow-up fa-1x"></span></a>
+          </form>
+        </div>        
+      </section>
+
+    </footer>
+
+  </body>
+</html>
